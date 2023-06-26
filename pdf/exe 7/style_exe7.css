@@ -1,0 +1,78 @@
+
+
+#container {
+    width: 1800px;
+    height: 800px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #aaa;
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Css form */
+.left {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.bookInfor,  .list  {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+label {
+    font-size: 25px;
+}
+#bookId, #bookName, #bookPrice, #bookAuthor, #bookStatus, #searchBookName {
+    width: 300px;
+    font-size: 22px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#bookId {
+    margin-left: 50px;
+}
+#bookName {
+    margin-left: 10px;
+}
+#bookPrice {
+    margin-left: 20px;
+}
+#bookStatus {
+    margin-left: 10px;
+}
+#btnSave {
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    margin: 30px 250px;
+}
+/* Css div right */
+.right {
+    width: auto;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-left: 20px;
+}
+#searchBookName {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#btnSearch {
+    width: 100px;
+    height: 35px;
+    font-size: 22px;
+}
+table, th, tr {
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 18px;
+}
+
+

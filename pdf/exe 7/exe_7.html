@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7 (pdf)</title>
+    <link rel="stylesheet" href="./style_exe7.css">
+</head>
+<body>
+    <div id="container">
+        <div class="left">
+            <form action="#" id="bookForm">
+                <h2 class="bookInfor">Book Information</h2>
+                <label for="bookId">Book Id : </label>
+                <input type="text" name="bookId" id="bookId" placeholder="Enter book id"><br>
+                <label for="bookName">Book Name : </label>
+                <input type="text" name="bookName" id="bookName" placeholder="Enter book name"><br>
+                <label for="bookPrice">Book Price : </label>
+                <input type="number" name="bookPrice" id="bookPrice" placeholder="Enter book price"><br>
+                <label for="bookAuthor">Book Author : </label>
+                <input type="text" name="bookAuthor" id="bookAuthor" placeholder="Enter book author"><br>
+                <label for="bookStatus">Book Status : </label>
+                <input type="text" name="bookStatus" id="bookStatus" placeholder="Enter book status"><br>
+                <input type="submit" value="Save" id="btnSave">
+            </form>
+        </div>
+        <div class="right">
+            <h2 class="list">List Book</h2>
+            <label for="search">Search for books by title</label>
+            <input type="search" name="bookName" id="searchBookName" placeholder="Enter book name">
+            <input type="submit" value="Search" id="btnSearch"><br>
+            <table id="bookTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Book Id</th>
+                        <th>Book Name</th>
+                        <th>Price ($)</th>
+                        <th>Author</th>
+                        <th>Status</th>
+                        <th>Action
+                            <!-- <button id="btnEdit">Edit</button>
+                            <button id="btnDelete">Delete</button> -->
+                        </th>
+                        <th>
+                            <button id="btnSort">Sort by a phase b</button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="content">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./main_exe7.js"></script>
+</body>
+</html>
